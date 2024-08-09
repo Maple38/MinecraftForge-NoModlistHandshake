@@ -103,7 +103,7 @@ public abstract class FMLHandshakeMessage {
         {
             for (ModContainer mod : modList)
             {
-                modTags.put(mod.getModId(), mod.getVersion());
+               // modTags.put(mod.getModId(), mod.getVersion());
             }
         }
         private Map<String,String> modTags = Maps.newHashMap();
